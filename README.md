@@ -1,4 +1,6 @@
-# kannada-mnist 
+# kannada-mnist
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J5i9vw88aCY_4A1trkSXl4bUgi2S4hna?usp=sharing)
+
 A Resnet34 solution to the [Kaggle Challenge](https://www.kaggle.com/c/Kannada-MNIST/)
 
 This repo shows a basic usage of PyTorch to create a training and inference pipeline for Image Classification Task.
@@ -19,6 +21,10 @@ Follow the following steps to successfully utilize the repo
 - Image data is 28 * 28 and it is flattened out in rows in `train.csv`
 - Reading from dataframe while training is slow, Hence, I create pickle objects for the image data in the CSV
 - `python create_image_pickles.py` This will create image pickles which we will use to train the model
+
+## Data Visualization
+
+Click the Colab Badge to play around with the data visualization notebook
 
 ## Training
 
